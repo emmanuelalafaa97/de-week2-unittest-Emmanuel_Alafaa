@@ -180,13 +180,12 @@ print(f"Action: {action}, New Glucose Level: {new_glucose}")
       
       ```
      on linux or WSL:
-
-       ```
+     ```
         python -m venv (.name of env)
 
         source ~/path_to_file/env_name/bin/activate
 
-       ```
+     ```
 
 3. **Install dependencies**
 
