@@ -169,7 +169,25 @@ print(f"Action: {action}, New Glucose Level: {new_glucose}")
    cd artificial-pancreas-system
    ```
 
-2. **Install dependencies**
+2. **Create a virtual environment**
+
+      on windows:
+      ```
+      python -m venv (.name of env)
+
+      (.name of env)\Scripts\activate
+
+      
+      ```
+     on linux or WSL:
+       ```
+       python -m venv (.name of env)
+
+       source ~/path_to_file/env_name/bin/activate
+
+       ```
+
+3. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
