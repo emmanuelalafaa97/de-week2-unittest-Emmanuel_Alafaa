@@ -123,7 +123,7 @@ requirements.txt
 
 ---
 
-## 🧩 Example Usage
+## Example Usage
 
 ```python
 from main.artificial_pancreas import ArtificialPancreasSystem
@@ -178,7 +178,7 @@ print(f"Action: {action}, New Glucose Level: {new_glucose}")
 3. **Run the tests**
 
    ```bash
-   pytest
+   python -m unittest file.py
    ```
 
 
